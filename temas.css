@@ -1,0 +1,525 @@
+.bloque_encabezado{
+
+    background-color: rgb(0, 0, 0);
+    display: flex;
+   
+
+}
+
+.pestañas{
+    display: flex;
+    justify-content: space-between;
+    flex: 1; 
+}
+
+.titulo{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.alas{
+    max-width: 120px ; /* Ancho fijo */
+    height: auto; /* Altura automática para mantener la proporción */
+    
+}
+
+.pestañas_inicio{
+    background-color: rgb(0, 0, 0);
+    padding: 3dvh;
+    text-align: center;
+    flex: 4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    transition: background-color 0.3s;
+    font-weight: 800;
+    text-decoration:none
+    
+}
+
+.pestañas_inicio:hover{
+    background-color: aliceblue;
+    color: black;
+    font-weight: 1300;
+    text-decoration: none;
+}
+
+.linea_1{
+    background-color: black;
+
+}
+.conteiner{
+    display: flex;
+    align-items: center;
+    
+}
+
+.row{
+    padding-top: 20px;
+}
+
+.cuerpo{
+    margin: 0%;
+    background-color:  rgb(255, 255, 255);
+
+}
+
+
+
+
+.elemento_new{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(img/Estilo\ urbano\ cover.webp);
+
+    
+
+}
+.card-img-top{
+    display: block;
+}
+
+.alas2{
+    max-width:  100px;  /* Ancho fijo */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+.card{
+    align-items: space-between;
+
+}
+.card-item{
+    color: black;
+    background-color: rgb(182, 175, 175);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card-body{
+    max-height: ;
+}
+.PRENDA{
+    display: flex;
+}
+.NEW_IN_SANTOS{
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.img_modelo{
+    justify-content: center;
+    display:flex ;
+    padding: 3%;
+    background-color: white;
+    border-color: #000000;
+    border: 3%;
+    border-color: #000000;
+}
+
+
+.NEW_IN_SANTOS_ind{
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    
+}
+.carousel-inner img {
+    width: 100%;
+    height: 70vh; /* Ajusta esta altura según tus necesidades */
+    object-fit: cover; /* Ajusta la imagen para cubrir completamente el contenedor */
+    object-position: center; /* Centra la imagen en el contenedor */
+}
+.imig{
+    max-width: 100%;
+    height: auto;
+}
+.letra_new{
+    padding-top: 1%;
+    font-weight: 800;
+}
+.letra_titulo{
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.html{
+    background-color: rgb(56, 56, 56);
+}
+.titulo_cuerpo{
+    display: flex;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 3px;
+    background-color: #000000;
+    color: #ffffff;
+}    
+
+
+button{
+    border-color: white;
+
+}
+.accordion-header{
+    display: flex;
+    justify-content: center;
+    background-image: url(img/fondo2.jfif) ;
+    max-height: 50%;
+    
+
+}
+
+.accordion-button{
+    border: none;
+    text-decoration: none;
+    height: auto;
+    
+
+}
+
+
+.accordion-button:hover{
+background-color: rgb(0, 0, 0);
+transition: 0.5s;
+color: white;
+border: none;
+}
+
+.carrito{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    color: white;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 60px 0;
+    font-size: 16px;
+    padding-top: 1%;
+    
+
+  
+}
+.row {
+    display: flex inline;
+    justify-content: space-between;
+}
+
+
+.footer h3 {
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+.titulo_letra{
+    padding-top: 10px;
+}
+@media(max-width: 700px){
+    .boton_añadir_carrito{
+        background-color: rgb(0, 0, 0);
+        padding: 2px;
+        color: rgb(255, 255, 255);
+        display: flex;
+    }
+    .boton_añadir_carrito:hover{
+        color: rgb(0, 0, 0);
+        background-color: rgb(74, 77, 74);
+        text-decoration: none;
+        font-weight: 500;
+        transition: color 0.5s
+    }
+}
+@media (max-width: 450px){
+    .PRENDA{
+        font-size: medium;
+    }
+    .boton_añadir_carrito{
+        font-size: x-small;
+    }
+    .label{
+        font-size: small;
+    }
+    .precio{
+        font-size: small;
+    }
+    .pestañas_inicio{
+        display: flex;
+        justify-content: center;
+        font-weight: 400;
+
+    }
+    .alas{ 
+        max-width:100px ;
+        height: auto; /* Altura automática para mantener la proporción */
+
+    }
+    .titulo_letra{
+        font-size: medium;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .card{
+        max-width: 50%;
+        height: auto;
+    }
+
+
+
+
+}
+
+
+
+
+.boton_añadir_carrito {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #77d18e;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    transition: background-color 0.3s;
+}
+
+.boton_añadir_carrito::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background-color: rgba(0, 255, 21, 0.2);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.3s ease-out, height 0.3s ease-out;
+    z-index: 0;
+}
+
+.boton_añadir_carrito:hover::before {
+    width: 0;
+    height: 0;
+}
+
+.boton_añadir_carrito span {
+    position: relative;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 900;
+    letter-spacing: 0.25em;
+    vertical-align: middle;
+}
+
+.boton_añadir_carrito svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #111;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+}
+
+.boton_añadir_carrito:hover svg {
+    transform: translateX(0);
+}
+.promo-banner {
+    background-color: #000000; /* Naranja brillante */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.promo-content h2 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.promo-content p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.promo-content strong {
+    font-size: 1.5em;
+}
+
+.card-img-top {
+    width: 100%; /* Ancho completo de la tarjeta */
+    height: 250px; /* Altura fija para uniformidad */
+    object-fit: cover; /* Mantiene la proporción de la imagen */
+    border-radius: 5px; /* Opcional: bordes redondeados para estética */
+}
+
+/* Contenedor uniforme para las imágenes */
+.card {
+    width: 18rem; /* Tamaño fijo para las tarjetas */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Asegurar que las imágenes se ajusten dentro del contenedor sin recortarse */
+.card-img-top {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    height: 200px; /* Establece una altura fija para las imágenes */
+    object-fit: contain; /* La imagen se ajusta al contenedor sin recortarse */
+    object-position: center; /* Centra la imagen en el contenedor */
+}
+
+/* Para asegurar que el resto del contenido de la tarjeta (texto y botones) quede bien alineado */
+.card-body {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Asegurar que las tarjetas de los productos estén organizadas en filas en pantallas grandes */
+.elemento_new {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+/* Cada tarjeta de producto tendrá el mismo tamaño */
+.card {
+    width: 18rem; /* Ancho fijo para las tarjetas */
+}
+
+/* Hacer que las tarjetas se coloquen en una columna cuando el tamaño de la pantalla sea pequeño */
+@media (max-width: 768px) {
+    .elemento_new {
+        display: flex;
+        flex-direction: column; /* Organiza los productos de arriba a abajo */
+        align-items: center; /* Centra los productos */
+        width: 100%; /* Asegura que ocupen el 100% del ancho */
+        gap: 10px; /* Espacio entre los productos */
+    }
+
+    .card {
+        width: 90%; /* Las tarjetas ocuparán el 90% del ancho de la pantalla */
+    }
+}
+
+/* Opcional: Si quieres que el texto también sea más grande en pantallas pequeñas */
+@media (max-width: 768px) {
+    .card-body h5,
+    .card-body p {
+        font-size: 1.2em; /* Aumenta el tamaño de la fuente */
+    }
+}
+
+
+/* Hacer que las tarjetas sean responsivas */
+@media (max-width: 768px) {
+    .card {
+        width: 100%; /* Hace que las tarjetas ocupen el 100% del ancho en pantallas pequeñas */
+    }
+}
+
+/* Para dispositivos grandes (escritorios) */
+@media (min-width: 1024px) {
+    .bloque_encabezado {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+
+    .pestañas {
+        justify-content: space-evenly;
+    }
+
+    .card {
+        width: 30%; /* Tres tarjetas por fila */
+        margin: 10px;
+    }
+
+    .img_modelo {
+        max-width: 300px;
+    }
+
+    .titulo {
+        font-size: 28px;
+    }
+}
+
+/* Para tablets (pantallas medianas) */
+@media (max-width: 1024px) {
+    .bloque_encabezado {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .card {
+        width: 45%; /* Dos tarjetas por fila */
+        margin: 10px auto;
+    }
+
+    .boton_añadir_carrito {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .pestañas_inicio {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .NEW_IN_SANTOS {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Para móviles (pantallas pequeñas) */
+@media (max-width: 768px) {
+    .bloque_encabezado {
+        flex-direction: column;
+        align-items
